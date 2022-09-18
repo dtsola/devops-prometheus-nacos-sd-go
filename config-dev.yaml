@@ -1,0 +1,4 @@
+serverPort: :6003
+nacosHost: '127.0.0.1'
+nacosPort: 8848
+nacosNameSpace: 'dev'
