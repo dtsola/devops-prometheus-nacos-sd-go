@@ -59,7 +59,7 @@ func main() {
 
 		services, err := global.DiscoveryClient.GetAllServicesInfo(vo.GetAllServiceInfoParam{
 			PageNo:   1,
-			PageSize: 1000,
+			PageSize: global.AppConfig.FetchServicesPageSize,
 		})
 		if err != nil {
 			panic("GetAllService failed!")

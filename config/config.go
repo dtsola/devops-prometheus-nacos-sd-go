@@ -20,5 +20,6 @@ type AppConfig struct {
 	NacosPort      uint64 `mapstructure:"nacosPort"`
 	NacosNamespace string `mapstructure:"nacosNameSpace"`
 
-	ServerPort string `mapstructure:"ServerPort"`
+	ServerPort            string `mapstructure:"serverPort"`
+	FetchServicesPageSize uint32 `mapstructure:"fetchServicesPageSize"`
 }
